@@ -35,7 +35,7 @@ public/               # Assets publics (images, favicon, etc.)
 
 ## 🔗 Lien vers le projet
 
-[Portfolio en ligne](https://devnordine.github.io/Portfolio)
+[Portfolio en ligne](https://nordineportfolio.netlify.app)
 
 ## 📝 Installation et exécution
 
