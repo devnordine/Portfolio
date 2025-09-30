@@ -19,7 +19,7 @@ Bienvenue sur mon portfolio personnel ! Ce projet met en avant mes compétences,
 
 ## 📸 Aperçu
 
-![Aperçu du portfolio](public/Poster.jpg)
+![Aperçu du portfolio](public/apercu.png)
 
 ## 📂 Structure du projet
 
