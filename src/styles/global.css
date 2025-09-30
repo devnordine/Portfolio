@@ -118,3 +118,25 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Mise à jour des tailles de police */
+h1 {
+  font-size: 2.5rem; /* Augmenté pour les titres principaux */
+}
+h2 {
+  font-size: 2rem; /* Augmenté pour les sous-titres */
+}
+h3 {
+  font-size: 1.75rem; /* Augmenté pour les titres de niveau 3 */
+}
+p, li {
+  font-size: 1.25rem; /* Augmenté pour le texte général */
+}
+
+/* Ajustement des marges pour correspondre aux nouvelles tailles */
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+p, li {
+  margin-bottom: 0.75rem;
+}

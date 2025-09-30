@@ -12,7 +12,7 @@ export default function ExperienceSection() {
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-          <h2 className="text-2xl font-bold mb-8 text-center md:text-left flex items-center md:inline-block">
+            <h2 className="text-2xl font-bold mb-8 text-center md:text-left flex items-center md:inline-block">
             <motion.span
               className="inline-block mr-2"
               initial={{ rotate: 0 }}
@@ -22,8 +22,8 @@ export default function ExperienceSection() {
             >
               💼
             </motion.span>{" "}
-            Work Experience
-          </h2>
+            Expérience Professionnelle
+            </h2>
         </MotionWrapper>
         <div className="mb-8">
           {workExperience.map((job, index) => (
@@ -46,7 +46,7 @@ export default function ExperienceSection() {
                   <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
                     <Briefcase className="h-4 w-4 text-purple-500" />
                   </div>
-                  <h4 className="text-sm font-medium">Key Achievements</h4>
+                    <h4 className="text-sm font-medium">Réalisations clés</h4>
                 </div>
                 <ul className="list-none ml-4 space-y-2 text-sm">
                   {job.achievements.map((achievement, i) => (

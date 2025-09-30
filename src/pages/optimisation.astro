@@ -1,0 +1,96 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import GlassHeader from "@/components/GlassHeader";
+---
+
+<Layout>
+  <GlassHeader />
+  <main class="container max-w-4xl mx-auto px-6 md:px-4 py-12">
+    <h1 class="text-3xl font-bold mb-6">🎯 Projet : CV Optimizer – « Votre avenir professionnel en 1 clic ! »</h1>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">🔍 Contexte</h2>
+      <p class="text-lg text-muted-foreground mb-4">
+        Aujourd’hui, la recherche d’emploi est souvent chronophage et peu optimisée : un même CV ne correspond pas forcément à toutes les annonces, et la rédaction des lettres de motivation peut vite devenir un frein.
+        Mon objectif avec CV Optimizer est de proposer une application innovante qui simplifie ce processus et augmente les chances de succès des candidatures.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">💡 Solution proposée</h2>
+      <ul class="list-disc ml-6 space-y-2">
+        <li>Analyser la compatibilité entre un CV et une offre d’emploi</li>
+        <li>Optimiser automatiquement le CV en fonction des mots-clés recherchés</li>
+        <li>Générer une lettre de motivation personnalisée en quelques secondes</li>
+        <li>Postuler plus rapidement et plus efficacement</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">🛠️ Technologies utilisées</h2>
+      <ul class="list-disc ml-6 space-y-2">
+        <li>Python (logique métier & IA)</li>
+        <li>PHP (gestion backend)</li>
+        <li>HTML / CSS (frontend & interface utilisateur)</li>
+        <li>Intelligence artificielle : intégration d’agents IA pour l’analyse et la génération automatique</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">📸 Illustrations</h2>
+      <p class="text-lg text-muted-foreground mb-4">➡️ Poster officiel du projet</p>
+      <img src="/Poster.jpg" alt="Poster officiel du projet" class="rounded-lg shadow-md mx-auto" style="max-width:400px; height:auto;" />
+
+      <br>
+      <h2 class="text-2xl font-semibold mb-4">🛠️ Interface de l'application</h2>
+      <br>
+      <div class="carousel-container relative">
+        <div class="carousel flex overflow-x-auto snap-x snap-mandatory">
+          <img src="/projetcv/CE1.png" alt="Page d’accueil" class="rounded-lg shadow-md snap-center w-full max-w-md" />
+          <img src="/projetcv/CE2.png" alt="Tableau de bord utilisateur" class="rounded-lg shadow-md snap-center w-full max-w-md" />
+          <img src="/projetcv/CE3.png" alt="Importation du CV & statistiques générées" class="rounded-lg shadow-md snap-center w-full max-w-md" />
+          <img src="/projetcv/CE4.png" alt="Génération de la lettre de motivation" class="rounded-lg shadow-md snap-center w-full max-w-md" />
+          <img src="/projetcv/CE5.png" alt="Exemple d’interface" class="rounded-lg shadow-md snap-center w-full max-w-md" />
+          <img src="/projetcv/CE6.png" alt="Statistiques avancées" class="rounded-lg shadow-md snap-center w-full max-w-md" />
+        </div>
+        <button class="prev absolute left-0 top-1/2 transform -translate-y-1/2 bg-purple-500 text-white px-4 py-2 rounded-full">◀</button>
+        <button class="next absolute right-0 top-1/2 transform -translate-y-1/2 bg-purple-500 text-white px-4 py-2 rounded-full">▶</button>
+      </div>
+    </section>
+
+    <script>
+      const carousel = document.querySelector('.carousel');
+      const prevButton = document.querySelector('.prev');
+      const nextButton = document.querySelector('.next');
+
+      prevButton.addEventListener('click', () => {
+        carousel.scrollBy({ left: -carousel.offsetWidth, behavior: 'smooth' });
+      });
+
+      nextButton.addEventListener('click', () => {
+        carousel.scrollBy({ left: carousel.offsetWidth, behavior: 'smooth' });
+      });
+    </script>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">🚀 Résultats & Valeur ajoutée</h2>
+      <ul class="list-disc ml-6 space-y-2">
+        <li>Un prototype fonctionnel qui réduit drastiquement le temps nécessaire pour adapter ses candidatures</li>
+        <li>Une solution innovante et moderne pour accompagner les chercheurs d’emploi</li>
+        <li>Développement de compétences clés : développement web, intégration IA, UI/UX design, méthodologie agile</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">🔗 Accéder au projet sur GitHub</h2>
+      <a
+        href="https://github.com/devnordine/Projet-adequation-CV-Offre"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block px-6 py-3 bg-purple-500 text-white font-semibold rounded-lg shadow-md hover:bg-purple-600 transition-colors"
+      >
+        Voir le projet sur GitHub
+      </a>
+    </section>
+  </main>
+</Layout>

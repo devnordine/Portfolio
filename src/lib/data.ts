@@ -1,171 +1,101 @@
 export const personalInfo = {
-  name: "Lorem Ipsum",
-  location: "Dolor Sit Amet",
-  email: "lorem@ipsum.com",
-  github: "https://github.com/loremipsum",
-  linkedin: "https://linkedin.com/in/loremipsum",
-  profilePicture: "/profile.jpeg",
+  name: "BRAHMIA Noureddine",
+  location: "Metz, France",
+  email: "noureddine.brahmia3@etu.univ-lorraine.fr",
+  github: "https://github.com/devnordine",
+  linkedin: "https://www.linkedin.com/in/nordinebrahmia/",
+  profilePicture: "/profile.jpeg", // Chemin mis à jour pour le nouveau format
   heroDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Étudiant en BUT Informatique à l’IUT de Metz, passionné par les technologies de l’information appliquées à l’éducation. Je cherche à développer mes compétences, contribuer à des projets innovants et acquérir une expérience pratique.",
 };
 
 export const workExperience = [
   {
-    company: "Lorem Ipsum Corp",
-    location: "Lorem City",
-    position: "Lorem Engineer",
-    period: "Jan 2020 - Present",
+    company: "Auto K Herpe, Spicheren",
+    location: "Spicheren",
+    position: "Stagiaire Développeur Web",
+    period: "Avril 2025 - Juin 2025",
     achievements: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
-      "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.",
+      "Automatisation des commandes d’achat sur SAP Business ByDesign via l’API SOAP.",
+      "Développement d’une application en Python (Streamlit) avec interface ergonomique.",
+      "Tests et intégration en collaboration avec les équipes informatiques et achats.",
     ],
   },
   {
-    company: "Dolor Sit Amet",
-    location: "Ipsumville",
-    position: "Software Developer",
-    period: "Feb 2019 - Jan 2020",
+    company: "Domitys, Metz",
+    location: "Metz",
+    position: "Réceptionniste",
+    period: "Septembre 2025 - Mai 2025",
     achievements: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
+      "Accueil des résidents et visiteurs, gestion des appels et du courrier.",
+      "Coordination des services quotidiens au sein de la résidence.",
     ],
   },
   {
-    company: "Consectetur Inc.",
-    location: "Adipiscing, Ipsum",
-    position: "Intern",
-    period: "Jun 2018 - Feb 2019",
+    company: "FC Metz",
+    location: "Metz",
+    position: "Serveur",
+    period: "2023 - 2024",
     achievements: [
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
+      "Assurer le service à table durant les matchs.",
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "Lorem Ipsum University",
-    location: "Lorem City",
-    degree: "BSc Lorem Ipsum",
-    period: "2015 - 2019",
-    achievements: [
-      "President of Lorem Ipsum Club",
-      "Organized multiple lorem events",
-      "Represented university in national competitions.",
-      "Graduated with honors.",
-    ],
+    institution: "Université de Lorraine - IUT Metz",
+    location: "Metz",
+    degree: "BUT Informatique",
+    period: "2023 - En cours",
+    achievements: ["Spécialisation en développement et automatisation de solutions logicielles."],
+  },
+  {
+    institution: "Université de Lorraine - IUT Metz",
+    location: "Metz",
+    degree: "BUT Génie Mécanique et Productique",
+    period: "2022",
+  },
+  {
+    institution: "Lycée Louis de Cormontaigne",
+    location: "Metz",
+    degree: "Baccalauréat STI2D (Énergie et Environnement)",
+    period: "2021",
+    achievements: ["Mention Assez Bien"],
   },
 ];
+
 export const skills = {
-  programmingLanguages: [
-    "LoremLang",
-    "IpsumScript",
-    "DolorLang",
-    "SitLang",
-    "AmetLang",
-    "ConsecteturLang",
-  ],
-  frontendDevelopment: [
-    "LoremJS",
-    "IpsumJS",
-    "Dolor Native",
-    "Sit UI",
-    "Amet CSS",
-    "HTML",
-    "CSS",
-  ],
-  backendDevelopment: ["LoremNode", "IpsumExpress"],
-  databaseAndStorage: ["LoremDB", "IpsumORM"],
-  cloudAndDevOps: ["LoremCloud"],
-  toolsAndServices: [
-    "LoremAuth",
-    "IpsumCMS",
-    "DolorAnalytics",
-    "SitValidator",
-    "AmetMonitor",
-    "ConsecteturPanel",
-    "AdipiscingTrigger",
-  ],
+  programmingLanguages: ["Python", "TypeScript", "Java", "C", "PHP", "HTML/CSS"],
+  frontendDevelopment: ["JavaScript", "HTML", "CSS", "TypeScript"],
+  backendDevelopment: ["Python (Streamlit)", "PHP", "MySQL"],
+  databaseAndStorage: ["MySQL", "SAP Business ByDesign"],
+  cloudAndDevOps: ["Docker"],
+  toolsAndServices: ["Git", "Pack Office", "Inventor"],
 };
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
-    github: "https://github.com/loremipsum/project",
+    title: "Optimisation CV-Offre avec IA",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "Analyse des CVs et des offres d'emploi.",
+      "Utilisation de l'IA pour améliorer l'adéquation."
     ],
+    github: "https://github.com/devnordine/Projet-adequation-CV-Offre"
   },
-  {
-    title: "Dolor Sit Amet App",
-    github: "https://github.com/loremipsum/dolorapp",
-    description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
-    ],
-  },
+  //{
+   // title: "Jeu X",
+  //  github: "https://github.com/devnordine",
+  //  description: ["Conception et développement d’un jeu interactif en projet personnel."],
+  //},
 ];
 
 export const awards = [
   {
-    name: "Lorem Ipsum Award",
-    issuer: "Lorem Organization",
-    date: "Jan 2020",
-    type: "International",
-    position: "First Place",
-  },
-  {
-    name: "Dolor Sit Amet Prize",
-    issuer: "Ipsum Foundation",
-    date: "Feb 2021",
-    type: "National",
-    position: "Runner-up",
-  },
-  {
-    name: "Consectetur Hackathon",
-    issuer: "Adipiscing Org",
-    date: "Mar 2022",
-    type: "National",
-    position: "Winner",
-  },
-  {
-    name: "Vestibulum Event",
-    issuer: "Vestibulum College",
-    date: "Apr 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "Curabitur Hackfest",
-    issuer: "Curabitur Institute",
-    date: "May 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Praesent Hacks",
-    issuer: "Praesent Group",
-    date: "Jun 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Fusce Hack",
-    issuer: "Fusce Club",
-    date: "Jul 2022",
-    type: "National",
-    position: "Most Impactful Hack",
+    name: "Recherche de stage 3ème année",
+    issuer: "BUT Informatique - IUT Metz",
+    date: "2026",
+    type: "Académique",
+    position: "Stage de fin d’études (23 février au 15 juin 2026)",
   },
 ];
